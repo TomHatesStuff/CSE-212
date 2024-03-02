@@ -112,9 +112,9 @@ class LinkedList:
         if self.head == self.tail:
             self.head = None
             self.tail = None
-        elif self.head is not None:
-            self.head.next.next = None  
-            self.head = self.head.prev
+        elif self.tail is not None:
+            self.tail.prev.next = None  
+            self.tail = self.tail.prev
             
 
     #################
@@ -160,6 +160,10 @@ class LinkedList:
                     curr.next.prev = curr.prev
                 if curr.prev != None:
                     curr.prev.next = curr.next
+                if curr.next == None:
+                    curr == self.remove_tail()
+                if curr.prev == None:
+                    curr == self.remove_head()
                 return 
             curr = curr.next 
     #################
