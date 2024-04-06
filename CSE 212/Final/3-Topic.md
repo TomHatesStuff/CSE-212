@@ -67,8 +67,10 @@ bst.insert(3)
 An AVL tree is a self-balancing binary search tree where the heights of the two child subtrees of any node differ by at most one.
 
    2
+
   / \
  /   \
+ 
 1     3
 
 (usually need more complex examples)
