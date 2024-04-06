@@ -121,3 +121,13 @@ linked_list.append(1)
 linked_list.append(2)
 linked_list.append(3)
 linked_list.print_list()  # Output: 1 -> 2 -> 3 -> None
+```
+## 11. Problem to Solve
+
+Write a program that uses a linked list to implement a queue data structure. The queue should support the following operations: enqueue, dequeue, and peek.
+
+### Solution
+
+You can check the solution [here](solution-2.py).
+
+[Return to Main Page](0-Welcome.md)
