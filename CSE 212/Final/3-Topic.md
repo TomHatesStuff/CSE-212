@@ -69,7 +69,7 @@ An AVL tree is a self-balancing binary search tree where the heights of the two 
    2
 
   / \
-  
+
  1   3
 
 (usually need more complex examples)
@@ -77,9 +77,11 @@ An AVL tree is a self-balancing binary search tree where the heights of the two 
 ## 6. Red-Black Tree
 
 A red-black tree is another type of self-balancing binary search tree where each node has an extra bit for denoting the color (red or black) of the node.
+
    B2
-  / \
- R1   R3
+  /  \
+R1   R3
+
 (usually need more complex examples)
 
 ## 7. B-tree
