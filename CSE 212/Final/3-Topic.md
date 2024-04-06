@@ -10,7 +10,7 @@ A tree is a collection of nodes connected by edges. Each node has a parent node 
 
 ## 3. Binary Tree
 
-![Binary tree example](/Users/lukemarshall/Desktop/School Documents/code shit/CSE 212/Final/all images/Binary tree)
+![Binary tree example](https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.geeksforgeeks.org%2Fbinary-tree-data-structure%2F&psig=AOvVaw1nq82fSAqiXJIoxPG9avsn&ust=1712471615237000&source=images&cd=vfe&opi=89978449&ved=0CBIQjRxqFwoTCKDkm4T8rIUDFQAAAAAdAAAAABAI)
 
 
 A binary tree is a tree in which each node has at most two children, referred to as the left child and the right child.
