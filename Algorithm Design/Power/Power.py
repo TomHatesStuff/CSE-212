@@ -1,5 +1,6 @@
 import json
 
+# pull up files and add asserts
 def read_power_data(filename):
     try:
         with open(filename, 'r') as file:
@@ -25,6 +26,7 @@ def get_subarray_size():
         print("Error: Invalid input. Please enter an integer.")
         exit(1)
 
+#calculate with the sub array
 def calculate_average_power(power_data, subarray_size):
     assert subarray_size > 0, "Error: Sub-array size must be greater than 0."
     assert subarray_size <= len(power_data), "Error: Sub-array size exceeds the length of the array."
@@ -40,3 +42,13 @@ def main():
 
 if __name__ == "__main__":
     main()
+# 1. Name:
+#     Luke Marshall
+# 2. Assignment Name:
+#      Lab 13: Power
+# 3. Assignment Description:
+#      This is a program that will take a list then ask for a number of the contents of the list and give the mean of that ammount.
+# 4. What was the hardest part? Be as specific as possible.
+#      The hardest part of this project would have to be creating the sub array. I had to research alot before i coukld get this to work. I also had some issues adding some asserts that could effectivly help the program.
+# 5. How long did it take for you to complete the assignment?
+#      8 hours
