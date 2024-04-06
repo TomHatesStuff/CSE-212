@@ -130,5 +130,7 @@ print(stack.peek()) # Output: 1
 Write a program that uses a stack to convert an infix expression to a postfix expression. Infix expressions are the standard mathematical expressions we use every day, such as "3 + 4" or "5 * (2 - 1)". Postfix expressions, also known as Reverse Polish Notation (RPN), are expressions where the operators come after their operands, such as "3 4 +".
 
 You can test your program with various infix expressions to ensure it correctly converts them to postfix notation.
-[Back to Welcome Page](0-Welcome.md)
+
 [Problem Solution](Solution-1.py) 
+
+[Back to Welcome Page](0-Welcome.md)
