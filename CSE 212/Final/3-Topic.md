@@ -11,9 +11,8 @@ A tree is a collection of nodes connected by edges. Each node has a parent node 
 ## 3. Binary Tree
 
 A binary tree is a tree in which each node has at most two children, referred to as the left child and the right child.
-   1
-  / \
- 2   3
+
+
  ```python
 class TreeNode:
     def __init__(self, key):
@@ -29,9 +28,7 @@ root.right = TreeNode(3)
 ## 4. Binary Search Tree (BST)
 
 A binary search tree is a binary tree in which the left child of a node contains only nodes with keys less than the node's key, and the right child contains only nodes with keys greater than the node's key.
-   2
-  / \
- 1   3
+
 ```python
 class TreeNode:
     def __init__(self, key):
@@ -66,22 +63,11 @@ bst.insert(3)
 
 An AVL tree is a self-balancing binary search tree where the heights of the two child subtrees of any node differ by at most one.
 
-   2
-
-  / \
- /   \
- 
-1     3
-
 (usually need more complex examples)
 
 ## 6. Red-Black Tree
 
 A red-black tree is another type of self-balancing binary search tree where each node has an extra bit for denoting the color (red or black) of the node.
-
-   B2
-  /  \
-R1   R3
 
 (usually need more complex examples)
 
@@ -93,6 +79,7 @@ A B-tree is a self-balancing tree data structure that maintains sorted data and 
 ## 8. Trie (Prefix Tree)
 
 A trie, also known as a prefix tree, is a tree-like data structure that stores a dynamic set of strings, where each node represents a common prefix of a group of strings.
+
 (usually need more complex examples)
 
 ## 9. Heap
